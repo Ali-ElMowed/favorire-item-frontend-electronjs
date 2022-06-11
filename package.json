@@ -1,0 +1,16 @@
+{
+  "name": "favorite-item",
+  "version": "1.0.0",
+  "description": "Favorite-Item_elctornjs",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "favorite-item-electronj"
+  },
+  "author": "",
+  "license": "ISC"
+}
