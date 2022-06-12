@@ -105,12 +105,12 @@ hr{
     background-color: black;
 }
 
-.category-name{
+.category-name, .favorites-name{
     margin: 40px;
     font-size: 2.5rem;
 }
 
-.category-items{
+.category-items,.favorites-items{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
