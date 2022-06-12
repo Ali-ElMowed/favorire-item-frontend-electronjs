@@ -11,7 +11,9 @@
     margin: 10px;
     
 }
-
+.header a{
+    cursor: pointer;
+}
 .left-side-header {
     display: flex;
     justify-content: space-between;
@@ -139,4 +141,41 @@ hr{
 .favorite-btn{
     margin-left: 60%;
     font-size: 32px;
+}
+
+.sigin-page{
+    display: flex;
+}
+
+#sigin, #sigup{
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+#sigin{
+    border-right: 2px solid black;
+}
+.sigin-word,.signup-word{
+    margin-left: 150px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    margin-left: 150px;
+}
+
+input, label{
+    margin-top: 20px;
+    max-width: 500px;
+    padding: 12px;
+    line-height: 0;
+}   
+button{
+    max-width: 500px;
+    padding: 12px;
+    margin-top: 20px;
 }
