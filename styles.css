@@ -1,45 +1,52 @@
 * {
     padding: 0;
     margin: 0;
-    box-sizing: border-box; 
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 
-.header{
+.header {
     display: flex;
     justify-content: space-between;
     margin: 10px;
+    
 }
 
-.left-side-header{
+.left-side-header {
     display: flex;
     justify-content: space-between;
     margin-right: 20px;
 }
-.left-side-header a{
-    
+
+.left-side-header a {
+
     margin-right: 10px;
     padding-top: 10px;
     text-decoration: none;
     font-size: 1.2rem;
     color: black;
 }
+
 #favorite-nav {
     padding-top: 0;
     font-size: 32px;
 }
 
-.category-brief{
+.category-brief {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 10px;
 }
-.category-brief-title{
+
+.category-brief-title {
     margin-bottom: 20px;
     font-size: 2.5rem;
     font-weight: bold;
+    cursor: pointer;
 }
-.category-brief-items{
+
+.category-brief-items {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -47,21 +54,23 @@
     width: 100%;
 }
 
-.brief-item-card{
+.brief-item-card {
     width: 200px;
     height: 200px;
     margin: 20px;
 }
 
-.brief-item-card > img{
+.brief-item-card>img {
     object-fit: cover;
     width: 200px;
     height: 200px;
-    border: 2px solid black ;
+    border: 2px solid black;
     border-radius: 10px;
 }
-.brief-item-name{
-    font-size:1.2rem ;
+
+.brief-item-name {
+    font-size: 1.2rem;
     margin-top: 5px;
     padding-left: 8px;
 }
+
