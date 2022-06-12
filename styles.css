@@ -74,3 +74,64 @@
     padding-left: 8px;
 }
 
+.category-page-content{
+    display: flex;
+}
+
+.categories-bar{
+    flex-basis: 15%;
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    
+}
+
+.category-in-bar{
+    text-decoration: none;
+    font-size:1.5rem;
+    margin-bottom: 50px;
+    color: black;
+}
+
+.category-page-content>hr{
+    height: 100vh;
+    background-color: black;
+    padding: 0.5px;
+}
+hr{
+    background-color: black;
+}
+
+.category-name{
+    margin: 40px;
+    font-size: 2.5rem;
+}
+
+.category-items{
+    display: flex;
+    margin-left: 30px;
+}
+
+.item-card{
+    width: 400px;
+    height: 250px;
+    
+}
+
+.item-card img{
+    object-fit: cover;
+    width: 350px;
+    height: 250px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.item-card-below{
+    display: flex;
+    padding:5px;
+}
+
+.favorite-btn{
+    margin-left: 60%;
+    font-size: 32px;
+}
