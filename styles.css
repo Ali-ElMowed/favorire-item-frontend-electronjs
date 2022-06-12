@@ -4,6 +4,30 @@
     box-sizing: border-box; 
 }
 
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.left-side-header{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+.left-side-header a{
+    
+    margin-right: 10px;
+    padding-top: 10px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: black;
+}
+#favorite-nav {
+    padding-top: 0;
+    font-size: 32px;
+}
+
 .category-brief{
     display: flex;
     flex-direction: column;
