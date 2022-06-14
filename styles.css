@@ -76,7 +76,7 @@
     padding-left: 8px;
 }
 
-.category-page-content{
+.category-page-content, .admin-page-content{
     display: flex;
 }
 
@@ -89,14 +89,14 @@
     
 }
 
-.category-in-bar{
+.category-in-bar,.admin-in-bar{
     text-decoration: none;
     font-size:1.5rem;
     margin-bottom: 50px;
     color: black;
 }
 
-.category-page-content>hr{
+.category-page-content>hr {
     height: 100vh;
     background-color: black;
     padding: 0.5px;
@@ -105,7 +105,7 @@ hr{
     background-color: black;
 }
 
-.category-name, .favorites-name{
+.category-name, .favorites-name, .admin-name{
     margin: 40px;
     font-size: 2.5rem;
 }
@@ -153,8 +153,8 @@ hr{
     flex-direction: column;
     margin-top: 50px;
 }
-#sigin{
-    border-right: 2px solid black;
+#sigup{
+    border-left: 2px solid black;
 }
 .sigin-word,.signup-word{
     margin-left: 150px;
@@ -178,4 +178,41 @@ button{
     max-width: 500px;
     padding: 12px;
     margin-top: 20px;
+}
+.admin-bar{
+    flex-basis: 150px;
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    border-right: 2px solid black;
+}
+
+.admin-name{
+    border-bottom: 1px solid black;
+}
+.admin-category{
+    display: flex;
+    border-bottom: 1px solid black;
+    margin-bottom: 15px;
+
+}
+.admin-category-name{
+    margin-right: 400px;
+    font-size: 2rem;
+}
+.admin-btn{
+    border-left: 1px solid black;
+    font-size: 2rem;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.admin-cat-factory{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.admin-page-content>hr{
+    margin-left: 70px;
+    background-color: black;
+    padding: 1px;
 }
