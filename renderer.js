@@ -19,31 +19,27 @@ axios({
     console.log(response.data.data);
     let cat_name = response.data.data.cat_name;
     let items = JSON.stringify(response.data.data.items);
+    let cat_namee=`
+                      <div class="category-brief-title">${cat_name}</div>
+                      <hr>
+                    `;
+    category_brief.innerHTML+=cat_namee;
     
-    // category_brief_title.innerHTML = cat_name;;
-
+  let item='';
     for(let i=0; i<response.data.data.items.length;i++){
         console.log(response.data.data.items[i].item_name)
         
-         let item=`
-         <hr>
-         <div class="category-brief ">
-           <div class="category-brief-title">${cat_name}</div>
-           <div class="category-brief-items">
+          item+=`
+            <div class="category-brief-items">
              <div class="brief-item-card">
                <img src="./assets/images/iphone.jpg" alt="">
                <div class="brief-item-name"> ${response.data.data.items[i].item_name}</div>
-             </div>
-        </div>
-
-
-
-
-        
+            </div>
          `;
-        category_brief_items.innerHTML+=item;
+        
 
     }
-
+  category_brief.innerHTML+=item;
+  category_brief+='<hr>'
 })
 }
